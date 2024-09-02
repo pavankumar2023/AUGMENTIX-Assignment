@@ -1,24 +1,25 @@
-# vue-authentication
+# To-Do List Application
 
-## Project setup
-```
-npm install
-```
+## Description
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+A simple To-Do List application that allows users to create, read, update, and delete tasks. Built with Node.js, Express, and MongoDB for the backend and a front-end framework of your choice.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Features
 
-### Lints and fixes files
-```
-npm run lint
-```
+- Add new tasks
+- View all tasks
+- Update task status
+- Delete tasks
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Installation
+
+### Prerequisites
+
+- Node.js
+- MongoDB
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-github-username/todo-list-application.git
+cd todo-list-application
