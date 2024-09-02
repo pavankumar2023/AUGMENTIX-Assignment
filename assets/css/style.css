@@ -1,0 +1,139 @@
+/* Dark Mode Styles */
+
+body {
+    background-color: #25b4f7;
+    color: #8d1f1f;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* General container styling */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+  }
+  
+  /* Links */
+  a {
+    color: #bb86fc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #3700b3;
+  }
+  
+  /* Input fields */
+  input, textarea, select {
+    background-color: #333333;
+    color: #e0e0e0;
+    border: 1px solid #444444;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: #888888;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #bb86fc;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3700b3;
+  }
+  
+  /* List items */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #e9dcdc;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #1b2d90;
+  }
+  
+  /* Dark mode for form elements */
+  form {
+    background-color: #e1d2d2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(226, 210, 210, 0.5);
+  }
+  
+  /* Dark mode for headers inside form */
+  form h1 {
+    color: #ffffff;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1f1f1f;
+    color: #bbbbbb;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #333333;
+  }
+  
+  /* Code blocks */
+  code {
+    background-color: #2e2e2e;
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: #e0e0e0;
+  }
+  
+  /* Dark mode for specific components */
+  .todo-list {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .todo-list h1 {
+    color: #ffffff;
+  }
+  
+  .todo-list input {
+    background-color: #333333;
+    color: #e0e0e0;
+    border: 1px solid #444444;
+  }
+  
+  .todo-list ul li {
+    background-color: #333333;
+    color: #e0e0e0;
+    border: 1px solid #444444;
+  }
+  
+  .todo-list button {
+    background-color: #bb86fc;
+    color: #121212;
+  }
+  
+  .todo-list button:hover {
+    background-color: #3700b3;
+  }
+  
